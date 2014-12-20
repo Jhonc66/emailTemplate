@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html>
+
+    
+
+<head>
+	
+    
+    
+    
+	<style type="text/css">
+	
+	
+	#outlook a { 
+  padding:0; 
+} 
+	
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 100%; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: helvetica, arial,"lucida grande", verdana, "メイリオ", "ＭＳ Ｐゴシック", sans-serif; color: #222; }
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+::selection { text-shadow: none; background-color: highlight; color: highlighttext; }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*
+ * Correct overflow not hidden in IE9
+ */
+
+svg:not(:root) { overflow: hidden; }
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label { cursor: pointer; }
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ */
+
+button, input { line-height: normal; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+
+}
+
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+    a, a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    table { display: table-header-group; } /* h5bp.com/t */
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}
+
+/* reflow reset for -webkit-margin-before: 1em */
+p { margin: 0; }
+
+html {
+    overflow-y: auto;
+    background-color: transparent;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    font: normal 100%;
+    position: relative;
+    height: 100%;
+}
+
+body, div, img, p, button, input, select, textarea, a {
+    box-sizing: border-box;
+}
+
+.image {
+    display: block;
+}
+
+input {
+    cursor: default;
+    display: block;
+}
+
+input[type=button] {
+    background-color: #e5e9e8;
+    border: 1px solid #9daca9;
+    border-radius: 4px;
+    box-shadow: inset 0 1px #fff;
+    font: inherit;
+    letter-spacing: inherit;
+    text-indent: inherit;
+    color: inherit;
+}
+
+input[type=button]:hover {
+    background-color: #eff1f1;
+}
+
+input[type=button]:active {
+    background-color: #d2d6d6;
+    border: 1px solid #9daca9;
+    box-shadow: inset 0 1px rgba(0,0,0,0.1);
+}
+
+/* Reset anchor styles to an unstyled default to be in parity with design surface. It 
+   is presumed that most link styles in real-world designs are custom (non-default). */
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    float: none;
+}
+
+#image {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box {
+    float: left;
+    height: auto;
+    margin-left: 8.531615%;
+    margin-top: 25px;
+    clear: both;
+    width: 42.668014%;
+}
+
+#text {
+    float: left;
+    font-size: 100%;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: 800;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: none;
+    min-height: 69px;
+    font-family: 'Helvetica Neue LT Std';
+    color: rgb(24, 87, 90);
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 31px;
+    clear: both;
+    min-height: 0px;
+    margin-right: 0%;
+    font-family: 'Helvetica Neue LT Std';
+    display: block;
+}
+
+#textspan2 {
+    line-height: 24.67px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#textspan3 {
+    line-height: 24.67px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#textspan4 {
+    font-size: 16px;
+    line-height: 24.67px;
+}
+
+#image2 {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+#box2 {
+    float: left;
+    height: 819px;
+    margin-left: 2.051299%;
+    margin-top: 20px;
+    clear: none;
+    width: 38.280422%;
+}
+
+#image3 {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+#image1 {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box3 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 15px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+#text3 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 16.67px;
+    margin-left: auto;
+    margin-top: 25px;
+    clear: none;
+    min-height: 406px;
+    margin-right: auto;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    overflow: visible;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(244, 244, 244);
+}
+
+#textspan7 {
+    font-family: 'Helvetica Neue LT Std';
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgb(24, 87, 90);
+    font-weight: bold;
+}
+
+#textspan8 {
+    font-family: 'Helvetica Neue LT Std';
+}
+
+#textspan9 {
+    font-family: 'Helvetica Neue LT Std';
+}
+
+#textspan12 {
+    font-family: 'Helvetica Neue LT Std';
+}
+
+#textspan11 {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 17.33px;
+    line-height: 21.33px;
+}
+
+#textspan13 {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 13.33px;
+}
+
+#textspan14 {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 13.33px;
+    color: rgb(24, 87, 90);
+}
+
+#textspan10 {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 17.33px;
+    font-weight: bold;
+    line-height: 21.33px;
+}
+
+#box1 {
+    float: left;
+    height: 77px;
+    margin-left: 0.0038997%;
+    margin-top: 1px;
+    clear: both;
+    width: 27.426588%;
+    background-image:url("img/signature.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text2 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0.08189369%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 0px;
+}
+
+#textspan5 {
+    font-size: 15px;
+    line-height: 24.67px;
+    font-family: 'Helvetica Neue LT Std';
+}
+
+#textspan6 {
+    font-size: 15px;
+    line-height: 24.67px;
+    font-style: italic;
+    font-family: 'Helvetica Neue LT Std';
+}
+
+#box4 {
+    float: left;
+    height: auto;
+    margin-left: 8.531615%;
+    margin-top: 11%;
+    clear: both;
+    width: 82.9318%;
+    background-color: rgb(40, 41, 41);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#text5 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 40px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    padding-left: 90px;
+    padding-right: 10px;
+    color: rgb(149, 149, 149);
+    background-color: rgb(40, 41, 41);
+}
+
+#textspan19 {
+    float: none;
+    font-size: 12px;
+    line-height: 21.33px;
+    font-family: arial;
+}
+
+#text6 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 22px auto 20px;
+    clear: none;
+    min-height: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: rgb(196, 216, 44);
+    background-color: rgb(40, 41, 41);
+}
+
+#textspan20 {
+    color: rgb(196, 216, 44);
+    font-size: 13.33px;
+    line-height: 18.67px;
+    font-family: arial;
+}
+
+#textspan23 {
+    color: rgb(196, 216, 44);
+    font-family: arial;
+    font-size: 13.33px;
+    line-height: 18.67px;
+}
+
+#textspan26 {
+    color: rgb(196, 216, 44);
+    font-family: arial;
+    font-size: 13.33px;
+    line-height: 18.67px;
+}
+
+#text4 {
+    float: none;
+    font-size: 13.33px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 16.67px;
+    margin: 25px auto 0px;
+    clear: none;
+    min-height: 406px;
+    padding: 25px 20px 0px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    overflow: hidden;
+    font-family: 'Helvetica Neue LT Std';
+    background-color: rgb(244, 244, 244);
+}
+
+#textspan15 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(24, 87, 90);
+    font-size: 15px;
+}
+
+#textspan {
+    font-size: 29.33px;
+    line-height: 40px;
+}
+
+#textspan16 {
+    font-weight: bold;
+    font-size: 17.33px;
+    line-height: 21.33px;
+}
+
+#textspan17 {
+    font-size: 13.33px;
+    line-height: 16.67px;
+}
+
+#textspan18 {
+    color: rgb(24, 87, 90);
+    font-size: 13.33px;
+    line-height: 16.67px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #image {
+        margin-top: 14px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        margin-right: auto;
+    }
+
+    .primaryContainer {
+        position: relative;
+    }
+
+    #box {
+        float: left;
+        margin-left: 8.640973%;
+        margin-top: 30px;
+        clear: none;
+        width: 42.489064%;
+    }
+
+    #text {
+        float: left;
+        font-size: 100%;
+        height: auto;
+        text-align: left;
+        font-weight: 800;
+        line-height: 1em;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        min-height: 69px;
+        font-family: 'Helvetica Neue LT Std';
+        color: rgb(24, 87, 90);
+    }
+
+    #textspan {
+        float: none;
+        line-height: 40px;
+    }
+
+    #text1 {
+        float: left;
+        font-size: 1em;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0%;
+        clear: none;
+        min-height: 0px;
+        margin-right: 0%;
+        display: block;
+    }
+
+    #textspan1 {
+        float: none;
+        font-size: 13.33px;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+
+    #textspan2 {
+        float: none;
+    }
+
+    #textspan3 {
+        float: none;
+    }
+
+    #textspan4 {
+        float: none;
+    }
+
+    #image2 {
+        float: right;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 5px;
+    }
+
+    #box2 {
+        float: left;
+        height: 930px;
+        margin-left: 2.052956%;
+        margin-top: 20px;
+        clear: none;
+        width: 38.280422%;
+    }
+
+    #image3 {
+        float: right;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 5px;
+    }
+
+    #image1 {
+        float: right;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: 0%;
+    }
+
+    #box3 {
+        float: left;
+        margin-left: 0%;
+        margin-top: 15px;
+        clear: both;
+        width: 100%;
+        background-color: rgb(244, 244, 244);
+        height: 889px;
+    }
+
+    #text3 {
+        font-size: 1em;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        margin-top: 25px;
+        clear: none;
+        line-height: 16px;
+    }
+
+    #textspan8 {
+        float: none;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(24, 87, 90);
+    }
+
+    #textspan7 {
+        float: none;
+    }
+
+    #textspan9 {
+        float: none;
+        font-size: 1em;
+    }
+
+    #textspan12 {
+        float: none;
+        font-size: 1em;
+    }
+
+    #textspan11 {
+        float: none;
+        font-weight: bold;
+    }
+
+    #textspan13 {
+        float: none;
+    }
+
+    #textspan14 {
+        float: none;
+    }
+
+    #textspan10 {
+        float: none;
+    }
+
+    #box1 {
+        float: left;
+        height: 77px;
+        margin-left: 0.0038997%;
+        margin-top: 1px;
+        clear: both;
+        width: 27.426588%;
+        background-image:url("img/signature.png");
+        background-attachment: scroll;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-position: 0% 0%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text2 {
+        float: none;
+        font-size: 1em;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0.08189369%;
+        margin-top: 0px;
+        clear: both;
+        min-height: 0px;
+    }
+
+    #textspan5 {
+        float: none;
+        font-weight: bold;
+    }
+
+    #textspan6 {
+        float: none;
+        font-weight: bold;
+    }
+
+    #box4 {
+        float: left;
+        margin-left: 8.531189%;
+        clear: both;
+        width: 82.9318%;
+        background-color: rgb(40, 41, 41);
+    }
+
+    #text5 {
+        float: none;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: auto;
+        margin-top: 40px;
+        clear: none;
+        min-height: 0px;
+        margin-right: auto;
+        padding-left: 70px;
+        padding-right: 70px;
+        color: rgb(149, 149, 149);
+    }
+
+    #textspan19 {
+        line-height: 21.33px;
+    }
+
+    #text6 {
+        float: none;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: auto;
+        margin-top: 22px;
+        clear: none;
+        min-height: 0px;
+        margin-right: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #textspan20 {
+        float: none;
+    }
+
+    #textspan23 {
+        float: none;
+    }
+
+    #textspan26 {
+        float: none;
+    }
+
+    #textspan22 {
+        float: none;
+        font-size: 13.33px;
+        line-height: 18.67px;
+        font-family: arial;
+    }
+
+    #textspan25 {
+        float: none;
+        font-size: 13.33px;
+        line-height: 18.67px;
+        font-family: arial;
+    }
+
+    #textspan21 {
+        float: none;
+        font-size: 13.33px;
+        line-height: 18.67px;
+        font-family: arial;
+    }
+
+    #textspan24 {
+        float: none;
+        font-size: 13.33px;
+        line-height: 18.67px;
+        font-family: arial;
+    }
+
+    #text4 {
+        float: none;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+        overflow: hidden;
+        padding-bottom: 0px;
+    }
+
+    #textspan15 {
+        float: none;
+    }
+
+    #textspan16 {
+        float: none;
+    }
+
+    #textspan17 {
+        float: none;
+    }
+
+    #textspan18 {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #image {
+        clear: none;
+    }
+
+    #text1 {
+        margin-left: 0.1471887%;
+        clear: both;
+        height: auto;
+        min-height: 1016px;
+    }
+
+    #box {
+        width: 82.93457%;
+    }
+
+    #box2 {
+        margin-top: 30px;
+        margin-left: 8.757837%;
+        clear: both;
+        width: 82.93457%;
+        height: 1027px;
+    }
+
+    #box1 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 53px;
+    }
+
+    #text2 {
+        margin-top: 1270px;
+        margin-left: -0.22961437%;
+        clear: none;
+        height: auto;
+        min-height: 55px;
+    }
+
+    #box4 {
+        margin-left: 8.929271%;
+        clear: both;
+        margin-top: 10.031348%;
+    }
+
+    #text5 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #box3 {
+        height: auto;
+    }
+
+    #text3 {
+        height: auto;
+    }
+}
+
+
+	
+	
+	
+	
+	</style>
+    
+    
+    
+    
+    
+    
+<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    </head>
+    
+    
+    
+    
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <img id="image" src="img/Header.png" class="image" />
+        <div id="box" class="clearfix">
+            <p id="text">
+            <span id="textspan">Back to Normal Civilisation<br />with an Important Question</span><br />
+            </p>
+            <p id="text1">
+            <span id="textspan1">June 16 2014, by Sam Volkering</span><br />  <span id="textspan2">Morbi accumsan ipsum velit nec tellus a odio <br />  Sed non  mauris vitae erat consequat auctor eu</span><br /><br /><span id="textspan3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</span><br /><br /><span id="textspan4">Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc am nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque.<br /><br />Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum<br /><br />Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat.<br /><br />Morbi accumsan ipsum velit. <br /></span><br />
+            </p>
+            <div id="box1" class="clearfix">
+            </div>
+            <p id="text2">
+            <span id="textspan5">Sam Volkering<br />Editor, </span><span id="textspan6">Tech Insider</span><br />
+            </p>
+        </div>
+        <div id="box2" class="clearfix">
+            <img id="image1" src="img/Twitter.png" class="image" />
+            <img id="image2" src="img/Google%20Plus.png" class="image" />
+            <img id="image3" src="img/facebook.png" class="image" />
+            <div id="box3" class="clearfix">
+                <p id="text3">
+                <span id="textspan7">The Money for Life Letter</span><span id="textspan8"> </span><span id="textspan9"><br /><br /></span><span id="textspan10">A Potential &#x24;20,000 a Year, Regardless of What Your Shares Do</span><span id="textspan11"> </span><span id="textspan12"><br /><br /></span><span id="textspan13">Australian retirees are feeling ‘increasingly nervous about their investments, their living standards and income stability,’ according to a brand new report from ME. <br /><br />But retirement expert Nick Hubble says one simple investment strategy could calm your nerves AND potentially give you &#x24;20,000 a year in income, even if the share market falls 50&#x25;. <br /><br />And in this new report, Nick Hubble explains how his simple but clever idea could leave you with less stress and more money in retirement…</span><span id="textspan14">&#x5b;more&#x5d;<br /></span><br /><br />
+                </p>
+                <p id="text4">
+                <span id="textspan15">Sound Money. Sound <br />Investments</span><br /><br /><br /><span id="textspan16">‘The last time this stock &#x27;bottomed out&#x27; in 2009…it rebounded 878&#x25; over the next two years’</span><br /><br /><br /><span id="textspan17">According to Greg Canavan, the same major gold producer is about to bottom out again in 2014. If you want to know when to buy, you need to read this latest report. The stock in question is one of two he&#x27;s getting ready to buy. The sector they operate in is getting very close to a major turning point. When the turn comes, the move up could be big. Greg doesn&#x27;t make these claims often. But as he says&#x3a; &#x27;this is an exceptional value opportunity&#x27;…&#x5b;more&#x5d;<br />money in retirement…</span><span id="textspan18">&#x5b;more&#x5d;</span><br />
+                </p>
+            </div>
+        </div>
+        <div id="box4" class="clearfix">
+            <p id="text5">
+            <span id="textspan19">Sam Volkering’s Tech Insider is published by Port Phillip Publishing Pty Ltd. Registered Office&#x3a; 96-98 Bridport Street, Albert Park VIC 3206. Port Phillip Publishing Pty &#x28;ACN&#x3a; 117 765 009 ABN&#x3a; 33 117 765 009&#x29; Australian Financial Services License&#x3a; 323 988. All content is &copy; 2005 – 2013 Port Phillip Publishing Pty Ltd.<br />cs&#x40;portphillippublishing.com.au    &#x7c;    Customer Service&#x3a; 1300 667 481 &#x28;Mon-Fri 9am-5pm&#x29;</span><br />
+            </p>
+            <p id="text6">
+            <span id="textspan20">Home</span><span id="textspan21"> </span>   <span id="textspan22">&#x7c; </span>   <span id="textspan23">Unsubscribe</span><span id="textspan24"> </span>   <span id="textspan25">&#x7c; </span>   <span id="textspan26">Port Phillip Publishing</span><br />
+            </p>
+        </div>
+    </div>
+    </body>
+</html>
